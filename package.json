@@ -1,0 +1,36 @@
+{
+  "name": "copy-for-browser",
+  "version": "1.0.0",
+  "description": "Copy certain files from node-modules to a public path for sourcing in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "coffee -o bin/ -c src/*.coffee"
+  },
+  "bin": "./bin/copy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CliffS/copy-for-browser.git"
+  },
+  "keywords": [
+    "copy",
+    "browser",
+    "npm",
+    "node_modules"
+  ],
+  "author": {
+      "name": "Cliff Stanford",
+      "email": "cliff@may.be"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/CliffS/copy-for-browser/issues"
+  },
+  "homepage": "https://github.com/CliffS/copy-for-browser#readme",
+  "dependencies": {
+    "fs-extra": "^4.0.1"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.0.0-beta4"
+  }
+}
