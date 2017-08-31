@@ -1,7 +1,7 @@
 {
   "name": "copy-for-browser",
   "version": "1.0.8",
-  "description": "Copy certain files from node-modules to a public path for sourcing in the browser",
+  "description": "Copy files from node-modules to a public path for use in the browser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
