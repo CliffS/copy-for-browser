@@ -1,6 +1,6 @@
 {
   "name": "copy-for-browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copy certain files from node-modules to a public path for sourcing in the browser",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "node_modules"
   ],
   "author": {
-      "name": "Cliff Stanford",
-      "email": "cliff@may.be"
+    "name": "Cliff Stanford",
+    "email": "cliff@may.be"
   },
   "license": "UNLICENSED",
   "bugs": {
