@@ -49,7 +49,7 @@ This is a (simplified) example of `package.json`:
 }
 ```
 
-Using this, you can run `npm install` and `npm copy` and the files
+Using this, you can run `npm install` and `npm run copy` and the files
 will appear in `public/js/vendor` and `public/css`, relative to the
 root of your project.
 
