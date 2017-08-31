@@ -21,7 +21,7 @@ the key `"browser"`.  This should contain one or more keys which are
 destination paths for the files.  Each key should have an array of
 file paths for the source files.
 
-This is be a (simplified) example of `package.json`:
+This is a (simplified) example of `package.json`:
 
 ```json
 {
