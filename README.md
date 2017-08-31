@@ -12,7 +12,7 @@ in the public path, based on the `package.json` for the package.
 
 ## Install
 
-  npm install copy-for-browser --save-dev
+    npm install copy-for-browser --save-dev
 
 ## Usage
 
