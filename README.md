@@ -58,6 +58,6 @@ comments would be appreciated at [Github][issues].
 
 ### Note
 
-In version 1 of `copy-for-browser`, the key `"browser"` was used.
+In **version 1.x** of `copy-for-browser`, the key `"browser"` was used.
 This has been changed to `"browserCopy"` to avoid the conflict with
-[https://github.com/browserify/browserify](browserify).
+[browserify](https://github.com/browserify/browserify).
