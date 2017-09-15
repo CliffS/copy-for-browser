@@ -28,7 +28,7 @@ copy = ->
 
   pack = require Path.join base, 'package.json'
 
-  section = pack.browser
+  section = pack.browserCopy
   Promise.all (copyset path, files for path, files of section)
   .catch (err) ->
     console.error err.toString()

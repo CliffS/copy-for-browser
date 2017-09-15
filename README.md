@@ -2,7 +2,7 @@
 
 [issues]: https://github.com/CliffS/copy-for-browser/issues
 
-## Copy files from node_modules to a public path for use in the browser
+## Copy files from `node_modules` to a public path for use in the browser
 
 This utility is designed to be used where you have both a
 server and a browser client being loaded from the same tree.
@@ -17,7 +17,7 @@ in the public path, based on the `package.json` for the package.
 ## Usage
 
 In your `package.json`, your will need a section at the top level with
-the key `"browser"`.  This should contain one or more keys which are
+the key `"browserCopy"`.  This should contain one or more keys which are
 destination paths for the files.  Each key should have an array of
 file paths for the source files.
 
@@ -56,3 +56,8 @@ root of your project.
 Please let me know if you find this useful.  Any issues or
 comments would be appreciated at [Github][issues].
 
+### Note
+
+In version 1 of `copy-for-browser`, the key `"browser"` was used.
+This has been changed to `"browserCopy"` to avoid the conflict with
+[https://github.com/browserify/browserify](browserify).
