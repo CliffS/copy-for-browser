@@ -1,6 +1,6 @@
 {
   "name": "copy-for-browser",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Copy files from node-modules to a public path for use in the browser",
   "main": "index.js",
   "scripts": {
