@@ -33,7 +33,7 @@ This is a (simplified) example of `package.json`:
   "dev-dependencies": {
     "copy-for-browser": "^1.0.0"
   },
-  "browser": {
+  "browserCopy": {
     "public/js/vendor": [
       "jquery/dist/jquery.min.js",
       "pouchdb/dist/pouchdb.min.js"
